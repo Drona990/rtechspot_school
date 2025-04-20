@@ -3062,6 +3062,7 @@ id visible_removing_fragment_view_tag
 id visitor_name
 id webView
 id web_view
+id webview
 id webview_layout
 id wednesdayNoData
 id wednesdaylayout
@@ -3167,6 +3168,7 @@ layout activity_student_syllabus_lesson
 layout activity_student_syllabus_status
 layout activity_student_video_tutorial_play
 layout activity_student_visitor_book
+layout activity_webview
 layout adapter_content_upload_detail
 layout adapter_course_curriculum
 layout adapter_course_curriculum_lesson
@@ -3949,6 +3951,7 @@ string videoTutorial
 string view
 string visitorbook
 string visitorbookheading
+string webUrl
 string wednesday
 string weight
 string wrong

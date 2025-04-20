@@ -62,9 +62,9 @@
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@drawable/app_icon"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.rtechspot.school.WebViewActivity" />
         <activity
             android:name="com.rtechspot.school.students.CbseExaminationActivity"
             android:exported="false" />

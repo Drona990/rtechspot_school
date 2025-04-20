@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:280:9-288:20
+INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:282:9-290:20
 	android:grantUriPermissions
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:284:13-47
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:286:13-47
 	android:authorities
 		INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:282:13-60
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:284:13-60
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:283:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:285:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:281:13-62
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:283:13-62
 manifest
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:2:1-291:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:2:1-291:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:2:1-291:12
-INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:2:1-291:12
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:2:1-293:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:2:1-293:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:2:1-293:12
+INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:2:1-293:12
 MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\admin\.gradle\caches\transforms-3\795c86524f3a4b92a009042d95bd8589\transformed\material-1.0.0-beta01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\admin\.gradle\caches\transforms-3\d3fd7daf1d8796e5b1ef531309cda3ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\admin\.gradle\caches\transforms-3\c67bbbe7ccdb4f9b411f3078b1185fdb\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -173,8 +173,8 @@ ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app
 	android:name
 		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:32:9-47
 application
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:35:5-289:19
-INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:35:5-289:19
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:35:5-291:19
+INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:35:5-291:19
 MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\admin\.gradle\caches\transforms-3\795c86524f3a4b92a009042d95bd8589\transformed\material-1.0.0-beta01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0-beta01] C:\Users\admin\.gradle\caches\transforms-3\795c86524f3a4b92a009042d95bd8589\transformed\material-1.0.0-beta01\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\admin\.gradle\caches\transforms-3\d3fd7daf1d8796e5b1ef531309cda3ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -249,466 +249,470 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\admin\.gradle\cach
 		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:47:9-44
 	android:name
 		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:36:9-56
+activity#com.rtechspot.school.WebViewActivity
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:50:9-53
+	android:name
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:50:19-50
 activity#com.rtechspot.school.students.CbseExaminationActivity
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:50:9-52:40
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:52:9-54:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:54:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:51:13-81
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:53:13-81
 activity#com.rtechspot.school.students.CbseTimeTableActivity
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:53:10-55:40
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:55:10-57:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:55:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:57:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:54:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:56:13-79
 activity#com.rtechspot.school.students.StudentOfflinePayment
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:56:9-58:40
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:58:9-60:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:58:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:60:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:57:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:59:13-79
 activity#com.rtechspot.school.students.BehaviourComment
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:59:9-61:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:61:9-63:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:61:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:60:13-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:62:13-74
 activity#com.rtechspot.school.students.StudentVideoTutorialPlay
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:62:9-64:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:64:9-66:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:64:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:66:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:63:13-82
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:65:13-82
 activity#com.rtechspot.school.students.StudentHomeworkNew
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:65:9-67:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:67:9-69:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:67:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:69:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:66:13-76
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:68:13-76
 activity#com.rtechspot.school.students.NewDashboard
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:68:9-70:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:70:9-72:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:70:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:72:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:69:13-70
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:71:13-70
 activity#com.rtechspot.school.students.StudentCoursePerformance
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:71:9-73:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:73:9-75:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:73:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:75:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:72:13-82
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:74:13-82
 activity#com.rtechspot.school.students.StudentUploadDocument
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:74:9-76:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:76:9-78:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:76:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:78:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:75:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:77:13-79
 activity#com.rtechspot.school.students.StudentDailyAssignment
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:77:9-79:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:79:9-81:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:79:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:81:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:78:13-80
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:80:13-80
 activity#com.rtechspot.school.students.StudentProcessingFees
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:80:9-82:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:82:9-84:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:82:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:84:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:81:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:83:13-79
 activity#com.rtechspot.school.students.StudentCourseDetail
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:83:9-86:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:85:9-88:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:86:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:88:13-36
 	android:configChanges
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:85:13-90
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:87:13-90
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:84:13-77
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:86:13-77
 activity#com.rtechspot.school.students.StudentOnlineCourse
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:87:9-89:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:89:9-91:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:89:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:91:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:88:13-77
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:90:13-77
 activity#com.rtechspot.school.students.StudentStartLessonActivity
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:90:9-93:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:92:9-95:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:93:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:95:13-36
 	android:configChanges
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:92:13-97
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:94:13-97
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:91:13-84
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:93:13-84
 activity#com.rtechspot.school.students.StudentLiveClasses
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:94:9-96:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:96:9-98:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:96:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:98:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:95:13-76
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:97:13-76
 activity#com.rtechspot.school.students.StudentOfflinePaymentList
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:97:9-99:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:99:9-101:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:99:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:101:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:98:13-83
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:100:13-83
 activity#com.rtechspot.school.students.StudentGmeetLiveClasses
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:100:9-102:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:102:9-104:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:102:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:104:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:101:13-81
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:103:13-81
 activity#com.rtechspot.school.students.StudentBehaviourReport
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:103:9-105:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:105:9-107:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:105:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:107:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:104:13-80
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:106:13-80
 activity#com.rtechspot.school.students.NotificationList
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:106:9-108:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:108:9-110:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:108:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:110:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:107:13-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:109:13-74
 activity#com.rtechspot.school.students.StudentOnlineExamQuestionsNew
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:109:9-112:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:111:9-114:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:112:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:114:13-36
 	android:configChanges
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:111:13-59
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:113:13-59
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:110:13-87
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:112:13-87
 activity#com.rtechspot.school.students.StudentOnlineExamResult
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:113:9-115:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:115:9-117:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:115:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:117:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:114:13-81
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:116:13-81
 activity#com.rtechspot.school.students.StudentOnlineExam
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:116:9-118:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:118:9-120:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:118:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:120:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:117:13-75
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:119:13-75
 activity#com.rtechspot.school.AboutSchool
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:119:9-121:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:121:9-123:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:121:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:123:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:120:13-60
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:122:13-60
 activity#com.rtechspot.school.students.StudentTimeline
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:122:9-124:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:124:9-126:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:124:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:126:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:123:13-73
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:125:13-73
 activity#com.rtechspot.school.students.StudentAddTimeLine
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:125:9-127:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:127:9-129:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:127:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:129:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:126:13-76
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:128:13-76
 activity#com.rtechspot.school.students.StudentEditTimeLine
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:128:9-130:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:130:9-132:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:130:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:132:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:129:13-77
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:131:13-77
 activity#com.rtechspot.school.students.StudentDocuments
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:131:9-133:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:133:9-135:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:133:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:135:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:132:13-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:134:13-74
 activity#com.rtechspot.school.SplashActivity
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:134:9-141:20
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:136:9-143:20
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:136:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:138:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:135:13-63
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:137:13-63
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:137:13-140:29
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:139:13-142:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:138:17-69
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:140:17-69
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:138:25-66
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:140:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:139:17-77
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:141:17-77
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:139:27-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:141:27-74
 activity#com.rtechspot.school.Login
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:142:9-144:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:144:9-146:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:144:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:146:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:143:13-54
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:145:13-54
 activity#com.rtechspot.school.students.StudentProfileDetailsNew
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:145:9-147:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:147:9-149:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:147:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:149:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:146:13-82
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:148:13-82
 activity#com.rtechspot.school.students.StudentAddAssignment
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:148:9-150:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:150:9-152:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:150:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:152:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:149:13-78
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:151:13-78
 activity#com.rtechspot.school.students.StudentEditAssignment
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:151:9-153:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:153:9-155:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:153:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:155:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:152:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:154:13-79
 activity#com.rtechspot.school.students.StudentUploadHomework
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:154:9-156:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:156:9-158:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:156:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:158:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:155:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:157:13-79
 activity#com.rtechspot.school.ForgotPassword
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:157:9-159:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:159:9-161:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:159:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:161:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:158:13-63
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:160:13-63
 activity#com.rtechspot.school.BaseActivity
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:160:9-162:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:162:9-164:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:162:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:164:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:161:13-61
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:163:13-61
 activity#com.rtechspot.school.students.StudentFees
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:163:9-165:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:165:9-167:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:165:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:167:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:164:13-69
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:166:13-69
 activity#com.rtechspot.school.students.StudentNoticeBoard
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:166:9-168:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:168:9-170:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:168:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:170:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:167:13-76
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:169:13-76
 activity#com.rtechspot.school.students.StudentExaminationList
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:169:9-171:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:171:9-173:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:171:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:173:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:170:13-80
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:172:13-80
 activity#com.rtechspot.school.students.StudentReportCard_ExamListResult
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:172:9-174:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:174:9-176:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:174:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:176:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:173:13-90
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:175:13-90
 activity#com.rtechspot.school.students.StudentSubjectList
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:175:9-177:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:177:9-179:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:177:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:179:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:176:13-76
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:178:13-76
 activity#com.rtechspot.school.students.StudentTeachersList
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:178:9-180:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:180:9-182:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:180:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:182:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:179:13-77
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:181:13-77
 activity#com.rtechspot.school.students.StudentTransportRoutes
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:181:9-183:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:183:9-185:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:183:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:185:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:182:13-80
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:184:13-80
 activity#com.rtechspot.school.students.StudentDownloads
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:184:9-186:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:186:9-188:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:186:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:188:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:185:13-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:187:13-74
 activity#com.rtechspot.school.students.StudentAttendance
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:187:9-189:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:189:9-191:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:189:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:191:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:188:13-75
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:190:13-75
 activity#com.rtechspot.school.students.StudentReportCard_ExamList
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:190:9-192:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:192:9-194:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:192:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:194:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:191:13-84
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:193:13-84
 activity#com.rtechspot.school.students.StudentExamSchedule_ExamList
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:193:9-195:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:195:9-197:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:195:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:197:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:194:13-86
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:196:13-86
 activity#com.rtechspot.school.students.StudentExamSchedule
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:196:9-198:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:198:9-200:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:198:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:200:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:197:13-77
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:199:13-77
 activity#com.rtechspot.school.students.StudentVisitorBook
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:199:9-201:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:201:9-203:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:201:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:203:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:200:13-76
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:202:13-76
 activity#com.rtechspot.school.students.StudentHostel
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:202:9-204:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:204:9-206:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:204:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:206:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:203:13-71
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:205:13-71
 activity#com.rtechspot.school.students.StudentLibraryBook
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:205:9-207:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:207:9-209:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:207:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:209:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:206:13-76
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:208:13-76
 activity#com.rtechspot.school.students.StudentClassTimetable
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:208:9-210:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:210:9-212:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:210:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:212:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:209:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:211:13-79
 activity#com.rtechspot.school.students.StudentSyllabusTimetable
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:211:9-213:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:213:9-215:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:213:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:215:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:212:13-82
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:214:13-82
 activity#com.rtechspot.school.students.StudentSyllabusStatus
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:214:9-216:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:216:9-218:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:216:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:218:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:215:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:217:13-79
 activity#com.rtechspot.school.students.StudentLibraryBookIssued
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:217:9-219:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:219:9-221:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:219:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:221:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:218:13-82
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:220:13-82
 activity#com.rtechspot.school.students.StudentAppyLeave
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:220:9-222:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:222:9-224:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:222:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:224:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:221:13-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:223:13-74
 activity#com.rtechspot.school.students.StudentAddLeave
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:223:9-225:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:225:9-227:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:225:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:227:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:224:13-73
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:226:13-73
 activity#com.rtechspot.school.students.StudentEditLeave
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:226:9-228:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:228:9-230:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:228:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:230:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:227:13-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:229:13-74
 activity#com.rtechspot.school.students.StudentSyllabus
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:229:9-231:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:231:9-233:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:231:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:233:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:230:13-73
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:232:13-73
 activity#com.rtechspot.school.students.StudentOnlineQuizResult
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:232:9-234:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:234:9-236:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:234:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:236:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:233:13-81
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:235:13-81
 activity#com.rtechspot.school.students.StudentSyllabuslesson
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:235:9-237:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:237:9-239:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:237:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:239:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:236:13-79
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:238:13-79
 activity#com.rtechspot.school.students.StudentOnlineCourseQuiz
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:238:9-240:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:240:9-242:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:240:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:242:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:239:13-81
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:241:13-81
 activity#com.rtechspot.school.SettingActivity
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:241:9-243:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:243:9-245:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:243:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:245:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:242:13-64
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:244:13-64
 activity#com.rtechspot.school.TakeUrl
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:244:9-247:40
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:246:9-249:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:247:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:249:13-37
 	android:configChanges
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:246:13-59
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:248:13-59
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:245:13-56
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:247:13-56
 activity#com.rtechspot.school.OpenPdf
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:248:9-250:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:250:9-252:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:250:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:252:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:249:13-56
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:251:13-56
 activity#com.rtechspot.school.students.StudentTasks
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:251:9-253:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:253:9-255:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:253:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:255:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:252:13-70
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:254:13-70
 activity#com.rtechspot.school.students.StudentTasksEdit
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:254:9-256:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:256:9-258:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:256:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:258:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:255:13-74
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:257:13-74
 activity#com.rtechspot.school.students.Payment
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:257:9-259:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:259:9-261:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:259:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:261:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:258:13-65
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:260:13-65
 activity#com.rtechspot.school.students.CoursePayment
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:260:9-262:39
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:262:9-264:39
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:262:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:264:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:261:13-71
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:263:13-71
 activity#com.rtechspot.school.students.CourseVideoPlay
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:263:9-267:53
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:265:9-269:53
 	android:screenOrientation
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:267:13-50
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:269:13-50
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:266:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:268:13-37
 	android:configChanges
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:265:13-59
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:267:13-59
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:264:13-73
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:266:13-73
 activity#com.rtechspot.school.students.LiveClasses
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:268:9-270:40
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:270:9-272:40
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:270:13-37
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:272:13-37
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:269:13-69
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:271:13-69
 service#com.rtechspot.school.utils.MyFirebaseMessagingService
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:272:9-278:19
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:274:9-280:19
 	android:exported
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:274:13-36
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:276:13-36
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:273:13-81
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:275:13-81
 intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:275:13-277:29
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:277:13-279:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:276:17-78
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:278:17-78
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:276:25-75
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:278:25-75
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:285:13-287:58
+ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:287:13-289:58
 	android:resource
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:287:17-55
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:289:17-55
 	android:name
-		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:286:17-67
+		ADDED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:288:17-67
 uses-sdk
 INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml

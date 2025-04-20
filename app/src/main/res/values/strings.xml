@@ -3,6 +3,7 @@
     <string name="empty"></string>
     <string name="submit_success">Submit Successfully</string>
     <string name="upload">Upload File</string>
+    <string name="webUrl" translatable="false">/site/login</string>
 
     <!--TAKE URL PAGE-->
     <string name="domainHead">Enter your school url</string>

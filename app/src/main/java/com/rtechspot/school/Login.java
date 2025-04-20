@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.graphics.Color;
+import android.graphics.Paint;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -103,11 +104,15 @@ public class Login extends Activity {
         changeUrlBtn = (LinearLayout) findViewById(R.id.btn_changeUrl_login);
         privacyTV = (TextView) findViewById(R.id.login_privacyTV);
         teacherLoginText = findViewById(R.id.teacher_login_text);
+        teacherLoginText.setPaintFlags(teacherLoginText.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+
+        String url = getString(R.string.webUrl);
+
         teacherLoginText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Login.this, SplashActivity.class);
-                intent.putExtra("url", "https://google.com"); // replace with your URL
+                Intent intent = new Intent(Login.this, WebViewActivity.class);
+                intent.putExtra("url", url); // replace with your URL
                 startActivity(intent);
             }
         });
