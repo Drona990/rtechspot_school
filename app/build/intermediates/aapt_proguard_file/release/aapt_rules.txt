@@ -1,0 +1,174 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.core.content.FileProvider { <init>(); }
+-keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+-keep class com.google.firebase.iid.FirebaseInstanceIdReceiver { <init>(); }
+-keep class com.google.firebase.messaging.FirebaseMessagingService { <init>(); }
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+-keep class com.rtechspot.school.AboutSchool { <init>(); }
+-keep class com.rtechspot.school.BaseActivity { <init>(); }
+-keep class com.rtechspot.school.ForgotPassword { <init>(); }
+-keep class com.rtechspot.school.Login { <init>(); }
+-keep class com.rtechspot.school.OpenPdf { <init>(); }
+-keep class com.rtechspot.school.SettingActivity { <init>(); }
+-keep class com.rtechspot.school.SplashActivity { <init>(); }
+-keep class com.rtechspot.school.TakeUrl { <init>(); }
+-keep class com.rtechspot.school.students.BehaviourComment { <init>(); }
+-keep class com.rtechspot.school.students.CbseExaminationActivity { <init>(); }
+-keep class com.rtechspot.school.students.CbseTimeTableActivity { <init>(); }
+-keep class com.rtechspot.school.students.CoursePayment { <init>(); }
+-keep class com.rtechspot.school.students.CourseVideoPlay { <init>(); }
+-keep class com.rtechspot.school.students.LiveClasses { <init>(); }
+-keep class com.rtechspot.school.students.NewDashboard { <init>(); }
+-keep class com.rtechspot.school.students.NotificationList { <init>(); }
+-keep class com.rtechspot.school.students.Payment { <init>(); }
+-keep class com.rtechspot.school.students.StudentAddAssignment { <init>(); }
+-keep class com.rtechspot.school.students.StudentAddLeave { <init>(); }
+-keep class com.rtechspot.school.students.StudentAddTimeLine { <init>(); }
+-keep class com.rtechspot.school.students.StudentAppyLeave { <init>(); }
+-keep class com.rtechspot.school.students.StudentAttendance { <init>(); }
+-keep class com.rtechspot.school.students.StudentBehaviourReport { <init>(); }
+-keep class com.rtechspot.school.students.StudentClassTimetable { <init>(); }
+-keep class com.rtechspot.school.students.StudentCourseDetail { <init>(); }
+-keep class com.rtechspot.school.students.StudentCoursePerformance { <init>(); }
+-keep class com.rtechspot.school.students.StudentDailyAssignment { <init>(); }
+-keep class com.rtechspot.school.students.StudentDocuments { <init>(); }
+-keep class com.rtechspot.school.students.StudentDownloads { <init>(); }
+-keep class com.rtechspot.school.students.StudentEditAssignment { <init>(); }
+-keep class com.rtechspot.school.students.StudentEditLeave { <init>(); }
+-keep class com.rtechspot.school.students.StudentEditTimeLine { <init>(); }
+-keep class com.rtechspot.school.students.StudentExamSchedule { <init>(); }
+-keep class com.rtechspot.school.students.StudentExamSchedule_ExamList { <init>(); }
+-keep class com.rtechspot.school.students.StudentExaminationList { <init>(); }
+-keep class com.rtechspot.school.students.StudentFees { <init>(); }
+-keep class com.rtechspot.school.students.StudentGmeetLiveClasses { <init>(); }
+-keep class com.rtechspot.school.students.StudentHomeworkNew { <init>(); }
+-keep class com.rtechspot.school.students.StudentHostel { <init>(); }
+-keep class com.rtechspot.school.students.StudentLibraryBook { <init>(); }
+-keep class com.rtechspot.school.students.StudentLibraryBookIssued { <init>(); }
+-keep class com.rtechspot.school.students.StudentLiveClasses { <init>(); }
+-keep class com.rtechspot.school.students.StudentNoticeBoard { <init>(); }
+-keep class com.rtechspot.school.students.StudentOfflinePayment { <init>(); }
+-keep class com.rtechspot.school.students.StudentOfflinePaymentList { <init>(); }
+-keep class com.rtechspot.school.students.StudentOnlineCourse { <init>(); }
+-keep class com.rtechspot.school.students.StudentOnlineCourseQuiz { <init>(); }
+-keep class com.rtechspot.school.students.StudentOnlineExam { <init>(); }
+-keep class com.rtechspot.school.students.StudentOnlineExamQuestionsNew { <init>(); }
+-keep class com.rtechspot.school.students.StudentOnlineExamResult { <init>(); }
+-keep class com.rtechspot.school.students.StudentOnlineQuizResult { <init>(); }
+-keep class com.rtechspot.school.students.StudentProcessingFees { <init>(); }
+-keep class com.rtechspot.school.students.StudentProfileDetailsNew { <init>(); }
+-keep class com.rtechspot.school.students.StudentReportCard_ExamList { <init>(); }
+-keep class com.rtechspot.school.students.StudentReportCard_ExamListResult { <init>(); }
+-keep class com.rtechspot.school.students.StudentStartLessonActivity { <init>(); }
+-keep class com.rtechspot.school.students.StudentSubjectList { <init>(); }
+-keep class com.rtechspot.school.students.StudentSyllabus { <init>(); }
+-keep class com.rtechspot.school.students.StudentSyllabusStatus { <init>(); }
+-keep class com.rtechspot.school.students.StudentSyllabusTimetable { <init>(); }
+-keep class com.rtechspot.school.students.StudentSyllabuslesson { <init>(); }
+-keep class com.rtechspot.school.students.StudentTasks { <init>(); }
+-keep class com.rtechspot.school.students.StudentTasksEdit { <init>(); }
+-keep class com.rtechspot.school.students.StudentTeachersList { <init>(); }
+-keep class com.rtechspot.school.students.StudentTimeline { <init>(); }
+-keep class com.rtechspot.school.students.StudentTransportRoutes { <init>(); }
+-keep class com.rtechspot.school.students.StudentUploadDocument { <init>(); }
+-keep class com.rtechspot.school.students.StudentUploadHomework { <init>(); }
+-keep class com.rtechspot.school.students.StudentVideoTutorialPlay { <init>(); }
+-keep class com.rtechspot.school.students.StudentVisitorBook { <init>(); }
+-keep class com.rtechspot.school.utils.MyApp { <init>(); }
+-keep class com.rtechspot.school.utils.MyFirebaseMessagingService { <init>(); }
+-keep class android.widget.Button { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AppCompatCheckBox { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.cardview.widget.CardView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.coordinatorlayout.widget.CoordinatorLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.drawerlayout.widget.DrawerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.swiperefreshlayout.widget.SwipeRefreshLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.viewpager.widget.ViewPager { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.daimajia.swipe.SwipeLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.AppBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.appbar.CollapsingToolbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.bottomnavigation.BottomNavigationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.floatingactionbutton.FloatingActionButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.BaselineLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.CheckableImageButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.internal.NavigationMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.navigation.NavigationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.Snackbar$SnackbarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.snackbar.SnackbarContentLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.tabs.TabLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputEditText { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.material.textfield.TextInputLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class de.hdodenhof.circleimageview.CircleImageView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.eazegraph.lib.charts.PieChart { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class rtechspot.ssdemo2024.utils.CustomCalendar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class rtechspot.ssdemo2024.utils.CustomImageView { <init>(android.content.Context, android.util.AttributeSet); }
+

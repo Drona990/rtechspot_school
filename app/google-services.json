@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "399863699794",
+    "project_id": "rtechspotschool",
+    "storage_bucket": "rtechspotschool.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399863699794:android:3166d310aca730212fc28b",
+        "android_client_info": {
+          "package_name": "com.rtechspot.school"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9bKRsuJ21e3wTh7Y_iXVZJX6P0iFgQCU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

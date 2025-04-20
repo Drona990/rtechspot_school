@@ -1,0 +1,703 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rtechspot.school"
+4    android:versionCode="1"
+5    android:versionName="4.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+11-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:6:5-73
+11-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:6:22-70
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:7:5-81
+12-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission
+13-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:8:5-10:36
+14        android:name="android.permission.CALL_PHONE"
+14-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:9:9-53
+15        android:required="false" />
+15-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:10:9-33
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:11:5-80
+16-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:12:5-67
+17-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:13:5-79
+18-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:13:22-76
+19    <uses-permission android:name="android.permission.READ_CALENDAR" />
+19-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:14:5-72
+19-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:14:22-69
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:15:5-76
+20-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:15:22-73
+21    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+21-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:16:5-75
+21-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:16:22-72
+22    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+22-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:17:5-75
+22-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:17:22-72
+23    <uses-permission android:name="android.permission.READ_MEDIA_FILE" />
+23-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:18:5-74
+23-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:18:22-71
+24    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+24-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:19:5-76
+24-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:19:22-74
+25    <uses-permission
+25-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:20:5-22:36
+26        android:name="android.permission.CAMERA"
+26-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:21:9-49
+27        android:required="false" />
+27-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:22:9-33
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:23:5-75
+28-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:23:22-72
+29    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+29-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:24:5-76
+29-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:24:22-74
+30
+31    <uses-feature
+31-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:25:5-27:36
+32        android:name="android.hardware.telephony"
+32-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:26:9-50
+33        android:required="false" />
+33-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:27:9-33
+34    <uses-feature
+34-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:28:5-30:36
+35        android:name="android.hardware.camera.autofocus"
+35-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:29:9-57
+36        android:required="false" />
+36-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:30:9-33
+37    <uses-feature
+37-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:31:5-33:34
+38        android:name="android.hardware.camera"
+38-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:32:9-47
+39        android:required="true" />
+39-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:33:9-32
+40
+41    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+41-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:5-68
+41-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:24:22-65
+42    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+42-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:5-82
+42-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:26:22-79
+43
+44    <permission
+44-->[androidx.core:core:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\2e6153425324545fcd287a2f319ce459\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+45        android:name="com.rtechspot.school.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+45-->[androidx.core:core:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\2e6153425324545fcd287a2f319ce459\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+46        android:protectionLevel="signature" />
+46-->[androidx.core:core:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\2e6153425324545fcd287a2f319ce459\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+47
+48    <uses-permission android:name="com.rtechspot.school.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+48-->[androidx.core:core:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\2e6153425324545fcd287a2f319ce459\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+48-->[androidx.core:core:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\2e6153425324545fcd287a2f319ce459\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+49
+50    <application
+50-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:35:5-289:19
+51        android:name="com.rtechspot.school.utils.MyApp"
+51-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:36:9-56
+52        android:allowBackup="false"
+52-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:37:9-36
+53        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+53-->[androidx.core:core:1.9.0] C:\Users\admin\.gradle\caches\transforms-3\2e6153425324545fcd287a2f319ce459\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+54        android:configChanges="orientation|screenSize"
+54-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:38:9-55
+55        android:exported="true"
+55-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:39:9-32
+56        android:extractNativeLibs="false"
+57        android:hardwareAccelerated="true"
+57-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:40:9-43
+58        android:icon="@drawable/app_icon"
+58-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:41:9-42
+59        android:label="@string/app_name"
+59-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:42:9-41
+60        android:networkSecurityConfig="@xml/network_security_config"
+60-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:48:9-69
+61        android:requestLegacyExternalStorage="true"
+61-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:43:9-52
+62        android:roundIcon="@drawable/app_icon"
+62-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:44:9-47
+63        android:supportsRtl="true"
+63-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:45:9-35
+64        android:theme="@style/AppTheme"
+64-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:46:9-40
+65        android:usesCleartextTraffic="true" >
+65-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:47:9-44
+66        <activity
+66-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:50:9-52:40
+67            android:name="com.rtechspot.school.students.CbseExaminationActivity"
+67-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:51:13-81
+68            android:exported="false" />
+68-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:52:13-37
+69        `
+70        <activity
+70-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:53:10-55:40
+71            android:name="com.rtechspot.school.students.CbseTimeTableActivity"
+71-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:54:13-79
+72            android:exported="false" />
+72-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:55:13-37
+73        <activity
+73-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:56:9-58:40
+74            android:name="com.rtechspot.school.students.StudentOfflinePayment"
+74-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:57:13-79
+75            android:exported="false" />
+75-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:58:13-37
+76        <activity
+76-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:59:9-61:39
+77            android:name="com.rtechspot.school.students.BehaviourComment"
+77-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:60:13-74
+78            android:exported="true" />
+78-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:61:13-36
+79        <activity
+79-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:62:9-64:39
+80            android:name="com.rtechspot.school.students.StudentVideoTutorialPlay"
+80-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:63:13-82
+81            android:exported="true" />
+81-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:64:13-36
+82        <activity
+82-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:65:9-67:39
+83            android:name="com.rtechspot.school.students.StudentHomeworkNew"
+83-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:66:13-76
+84            android:exported="true" />
+84-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:67:13-36
+85        <activity
+85-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:68:9-70:39
+86            android:name="com.rtechspot.school.students.NewDashboard"
+86-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:69:13-70
+87            android:exported="true" />
+87-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:70:13-36
+88        <activity
+88-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:71:9-73:39
+89            android:name="com.rtechspot.school.students.StudentCoursePerformance"
+89-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:72:13-82
+90            android:exported="true" />
+90-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:73:13-36
+91        <activity
+91-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:74:9-76:39
+92            android:name="com.rtechspot.school.students.StudentUploadDocument"
+92-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:75:13-79
+93            android:exported="true" />
+93-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:76:13-36
+94        <activity
+94-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:77:9-79:39
+95            android:name="com.rtechspot.school.students.StudentDailyAssignment"
+95-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:78:13-80
+96            android:exported="true" />
+96-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:79:13-36
+97        <activity
+97-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:80:9-82:39
+98            android:name="com.rtechspot.school.students.StudentProcessingFees"
+98-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:81:13-79
+99            android:exported="true" />
+99-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:82:13-36
+100        <activity
+100-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:83:9-86:39
+101            android:name="com.rtechspot.school.students.StudentCourseDetail"
+101-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:84:13-77
+102            android:configChanges="orientation|keyboardHidden|screenSize|layoutDirection"
+102-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:85:13-90
+103            android:exported="true" />
+103-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:86:13-36
+104        <activity
+104-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:87:9-89:39
+105            android:name="com.rtechspot.school.students.StudentOnlineCourse"
+105-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:88:13-77
+106            android:exported="true" />
+106-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:89:13-36
+107        <activity
+107-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:90:9-93:39
+108            android:name="com.rtechspot.school.students.StudentStartLessonActivity"
+108-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:91:13-84
+109            android:configChanges="keyboardHidden|orientation|screenSize|layoutDirection|uiMode"
+109-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:92:13-97
+110            android:exported="true" />
+110-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:93:13-36
+111        <activity
+111-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:94:9-96:39
+112            android:name="com.rtechspot.school.students.StudentLiveClasses"
+112-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:95:13-76
+113            android:exported="true" />
+113-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:96:13-36
+114        <activity
+114-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:97:9-99:39
+115            android:name="com.rtechspot.school.students.StudentOfflinePaymentList"
+115-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:98:13-83
+116            android:exported="true" />
+116-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:99:13-36
+117        <activity
+117-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:100:9-102:39
+118            android:name="com.rtechspot.school.students.StudentGmeetLiveClasses"
+118-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:101:13-81
+119            android:exported="true" />
+119-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:102:13-36
+120        <activity
+120-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:103:9-105:39
+121            android:name="com.rtechspot.school.students.StudentBehaviourReport"
+121-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:104:13-80
+122            android:exported="true" />
+122-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:105:13-36
+123        <activity
+123-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:106:9-108:39
+124            android:name="com.rtechspot.school.students.NotificationList"
+124-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:107:13-74
+125            android:exported="true" />
+125-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:108:13-36
+126        <activity
+126-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:109:9-112:39
+127            android:name="com.rtechspot.school.students.StudentOnlineExamQuestionsNew"
+127-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:110:13-87
+128            android:configChanges="orientation|screenSize"
+128-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:111:13-59
+129            android:exported="true" />
+129-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:112:13-36
+130        <activity
+130-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:113:9-115:39
+131            android:name="com.rtechspot.school.students.StudentOnlineExamResult"
+131-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:114:13-81
+132            android:exported="true" />
+132-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:115:13-36
+133        <activity
+133-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:116:9-118:39
+134            android:name="com.rtechspot.school.students.StudentOnlineExam"
+134-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:117:13-75
+135            android:exported="true" />
+135-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:118:13-36
+136        <activity
+136-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:119:9-121:39
+137            android:name="com.rtechspot.school.AboutSchool"
+137-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:120:13-60
+138            android:exported="true" />
+138-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:121:13-36
+139        <activity
+139-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:122:9-124:39
+140            android:name="com.rtechspot.school.students.StudentTimeline"
+140-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:123:13-73
+141            android:exported="true" />
+141-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:124:13-36
+142        <activity
+142-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:125:9-127:39
+143            android:name="com.rtechspot.school.students.StudentAddTimeLine"
+143-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:126:13-76
+144            android:exported="true" />
+144-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:127:13-36
+145        <activity
+145-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:128:9-130:39
+146            android:name="com.rtechspot.school.students.StudentEditTimeLine"
+146-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:129:13-77
+147            android:exported="true" />
+147-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:130:13-36
+148        <activity
+148-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:131:9-133:39
+149            android:name="com.rtechspot.school.students.StudentDocuments"
+149-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:132:13-74
+150            android:exported="true" />
+150-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:133:13-36
+151        <activity
+151-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:134:9-141:20
+152            android:name="com.rtechspot.school.SplashActivity"
+152-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:135:13-63
+153            android:exported="true" >
+153-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:136:13-36
+154            <intent-filter>
+154-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:137:13-140:29
+155                <action android:name="android.intent.action.MAIN" />
+155-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:138:17-69
+155-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:138:25-66
+156
+157                <category android:name="android.intent.category.LAUNCHER" />
+157-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:139:17-77
+157-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:139:27-74
+158            </intent-filter>
+159        </activity>
+160        <activity
+160-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:142:9-144:39
+161            android:name="com.rtechspot.school.Login"
+161-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:143:13-54
+162            android:exported="true" />
+162-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:144:13-36
+163        <activity
+163-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:145:9-147:39
+164            android:name="com.rtechspot.school.students.StudentProfileDetailsNew"
+164-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:146:13-82
+165            android:exported="true" />
+165-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:147:13-36
+166        <activity
+166-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:148:9-150:39
+167            android:name="com.rtechspot.school.students.StudentAddAssignment"
+167-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:149:13-78
+168            android:exported="true" />
+168-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:150:13-36
+169        <activity
+169-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:151:9-153:39
+170            android:name="com.rtechspot.school.students.StudentEditAssignment"
+170-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:152:13-79
+171            android:exported="true" />
+171-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:153:13-36
+172        <activity
+172-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:154:9-156:39
+173            android:name="com.rtechspot.school.students.StudentUploadHomework"
+173-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:155:13-79
+174            android:exported="true" />
+174-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:156:13-36
+175        <activity
+175-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:157:9-159:39
+176            android:name="com.rtechspot.school.ForgotPassword"
+176-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:158:13-63
+177            android:exported="true" />
+177-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:159:13-36
+178        <activity
+178-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:160:9-162:39
+179            android:name="com.rtechspot.school.BaseActivity"
+179-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:161:13-61
+180            android:exported="true" />
+180-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:162:13-36
+181        <activity
+181-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:163:9-165:39
+182            android:name="com.rtechspot.school.students.StudentFees"
+182-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:164:13-69
+183            android:exported="true" />
+183-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:165:13-36
+184        <activity
+184-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:166:9-168:39
+185            android:name="com.rtechspot.school.students.StudentNoticeBoard"
+185-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:167:13-76
+186            android:exported="true" />
+186-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:168:13-36
+187        <activity
+187-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:169:9-171:39
+188            android:name="com.rtechspot.school.students.StudentExaminationList"
+188-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:170:13-80
+189            android:exported="true" />
+189-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:171:13-36
+190        <activity
+190-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:172:9-174:39
+191            android:name="com.rtechspot.school.students.StudentReportCard_ExamListResult"
+191-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:173:13-90
+192            android:exported="true" />
+192-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:174:13-36
+193        <activity
+193-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:175:9-177:39
+194            android:name="com.rtechspot.school.students.StudentSubjectList"
+194-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:176:13-76
+195            android:exported="true" />
+195-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:177:13-36
+196        <activity
+196-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:178:9-180:39
+197            android:name="com.rtechspot.school.students.StudentTeachersList"
+197-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:179:13-77
+198            android:exported="true" />
+198-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:180:13-36
+199        <activity
+199-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:181:9-183:39
+200            android:name="com.rtechspot.school.students.StudentTransportRoutes"
+200-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:182:13-80
+201            android:exported="true" />
+201-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:183:13-36
+202        <activity
+202-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:184:9-186:39
+203            android:name="com.rtechspot.school.students.StudentDownloads"
+203-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:185:13-74
+204            android:exported="true" />
+204-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:186:13-36
+205        <activity
+205-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:187:9-189:39
+206            android:name="com.rtechspot.school.students.StudentAttendance"
+206-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:188:13-75
+207            android:exported="true" />
+207-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:189:13-36
+208        <activity
+208-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:190:9-192:39
+209            android:name="com.rtechspot.school.students.StudentReportCard_ExamList"
+209-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:191:13-84
+210            android:exported="true" />
+210-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:192:13-36
+211        <activity
+211-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:193:9-195:39
+212            android:name="com.rtechspot.school.students.StudentExamSchedule_ExamList"
+212-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:194:13-86
+213            android:exported="true" />
+213-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:195:13-36
+214        <activity
+214-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:196:9-198:39
+215            android:name="com.rtechspot.school.students.StudentExamSchedule"
+215-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:197:13-77
+216            android:exported="true" />
+216-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:198:13-36
+217        <activity
+217-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:199:9-201:39
+218            android:name="com.rtechspot.school.students.StudentVisitorBook"
+218-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:200:13-76
+219            android:exported="true" />
+219-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:201:13-36
+220        <activity
+220-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:202:9-204:39
+221            android:name="com.rtechspot.school.students.StudentHostel"
+221-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:203:13-71
+222            android:exported="true" />
+222-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:204:13-36
+223        <activity
+223-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:205:9-207:39
+224            android:name="com.rtechspot.school.students.StudentLibraryBook"
+224-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:206:13-76
+225            android:exported="true" />
+225-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:207:13-36
+226        <activity
+226-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:208:9-210:39
+227            android:name="com.rtechspot.school.students.StudentClassTimetable"
+227-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:209:13-79
+228            android:exported="true" />
+228-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:210:13-36
+229        <activity
+229-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:211:9-213:39
+230            android:name="com.rtechspot.school.students.StudentSyllabusTimetable"
+230-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:212:13-82
+231            android:exported="true" />
+231-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:213:13-36
+232        <activity
+232-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:214:9-216:39
+233            android:name="com.rtechspot.school.students.StudentSyllabusStatus"
+233-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:215:13-79
+234            android:exported="true" />
+234-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:216:13-36
+235        <activity
+235-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:217:9-219:39
+236            android:name="com.rtechspot.school.students.StudentLibraryBookIssued"
+236-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:218:13-82
+237            android:exported="true" />
+237-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:219:13-36
+238        <activity
+238-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:220:9-222:39
+239            android:name="com.rtechspot.school.students.StudentAppyLeave"
+239-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:221:13-74
+240            android:exported="true" />
+240-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:222:13-36
+241        <activity
+241-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:223:9-225:39
+242            android:name="com.rtechspot.school.students.StudentAddLeave"
+242-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:224:13-73
+243            android:exported="true" />
+243-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:225:13-36
+244        <activity
+244-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:226:9-228:39
+245            android:name="com.rtechspot.school.students.StudentEditLeave"
+245-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:227:13-74
+246            android:exported="true" />
+246-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:228:13-36
+247        <activity
+247-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:229:9-231:39
+248            android:name="com.rtechspot.school.students.StudentSyllabus"
+248-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:230:13-73
+249            android:exported="true" />
+249-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:231:13-36
+250        <activity
+250-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:232:9-234:39
+251            android:name="com.rtechspot.school.students.StudentOnlineQuizResult"
+251-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:233:13-81
+252            android:exported="true" />
+252-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:234:13-36
+253        <activity
+253-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:235:9-237:39
+254            android:name="com.rtechspot.school.students.StudentSyllabuslesson"
+254-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:236:13-79
+255            android:exported="true" />
+255-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:237:13-36
+256        <activity
+256-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:238:9-240:39
+257            android:name="com.rtechspot.school.students.StudentOnlineCourseQuiz"
+257-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:239:13-81
+258            android:exported="true" />
+258-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:240:13-36
+259        <activity
+259-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:241:9-243:39
+260            android:name="com.rtechspot.school.SettingActivity"
+260-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:242:13-64
+261            android:exported="true" />
+261-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:243:13-36
+262        <activity
+262-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:244:9-247:40
+263            android:name="com.rtechspot.school.TakeUrl"
+263-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:245:13-56
+264            android:configChanges="orientation|screenSize"
+264-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:246:13-59
+265            android:exported="false" />
+265-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:247:13-37
+266        <activity
+266-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:248:9-250:39
+267            android:name="com.rtechspot.school.OpenPdf"
+267-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:249:13-56
+268            android:exported="true" />
+268-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:250:13-36
+269        <activity
+269-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:251:9-253:39
+270            android:name="com.rtechspot.school.students.StudentTasks"
+270-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:252:13-70
+271            android:exported="true" />
+271-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:253:13-36
+272        <activity
+272-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:254:9-256:39
+273            android:name="com.rtechspot.school.students.StudentTasksEdit"
+273-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:255:13-74
+274            android:exported="true" />
+274-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:256:13-36
+275        <activity
+275-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:257:9-259:39
+276            android:name="com.rtechspot.school.students.Payment"
+276-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:258:13-65
+277            android:exported="true" />
+277-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:259:13-36
+278        <activity
+278-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:260:9-262:39
+279            android:name="com.rtechspot.school.students.CoursePayment"
+279-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:261:13-71
+280            android:exported="true" />
+280-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:262:13-36
+281        <activity
+281-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:263:9-267:53
+282            android:name="com.rtechspot.school.students.CourseVideoPlay"
+282-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:264:13-73
+283            android:configChanges="orientation|screenSize"
+283-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:265:13-59
+284            android:exported="false"
+284-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:266:13-37
+285            android:screenOrientation="landscape" />
+285-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:267:13-50
+286        <activity
+286-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:268:9-270:40
+287            android:name="com.rtechspot.school.students.LiveClasses"
+287-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:269:13-69
+288            android:exported="false" />
+288-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:270:13-37
+289
+290        <service
+290-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:272:9-278:19
+291            android:name="com.rtechspot.school.utils.MyFirebaseMessagingService"
+291-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:273:13-81
+292            android:exported="true" >
+292-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:274:13-36
+293            <intent-filter>
+293-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:275:13-277:29
+294                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+294-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:276:17-78
+294-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:276:25-75
+295            </intent-filter>
+296        </service>
+297
+298        <provider
+299            android:name="androidx.core.content.FileProvider"
+299-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:281:13-62
+300            android:authorities="com.rtechspot.school.provider"
+300-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:282:13-60
+301            android:exported="false"
+301-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:283:13-37
+302            android:grantUriPermissions="true" >
+302-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:284:13-47
+303            <meta-data
+303-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:285:13-287:58
+304                android:name="android.support.FILE_PROVIDER_PATHS"
+304-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:286:17-67
+305                android:resource="@xml/provider_paths" />
+305-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:287:17-55
+306        </provider>
+307        <!--
+308             FirebaseMessagingService performs security checks at runtime,
+309             but set to not exported to explicitly avoid allowing another app to call it.
+310        -->
+311        <service
+311-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\1ef4ec9a0b5e9c4f3d7aa1d928ff3626\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:28:9-34:19
+312            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+312-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\1ef4ec9a0b5e9c4f3d7aa1d928ff3626\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:29:13-82
+313            android:exported="false" >
+313-->[com.google.firebase:firebase-messaging:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\1ef4ec9a0b5e9c4f3d7aa1d928ff3626\transformed\jetified-firebase-messaging-20.0.0\AndroidManifest.xml:30:13-37
+314            <intent-filter android:priority="-500" >
+314-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:275:13-277:29
+315                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+315-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:276:17-78
+315-->C:\Users\admin\AndroidStudioProjects\smart_school_android_app_src\app\src\main\AndroidManifest.xml:276:25-75
+316            </intent-filter>
+317        </service>
+318        <service
+318-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:29:9-35:19
+319            android:name="com.google.firebase.components.ComponentDiscoveryService"
+319-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:30:13-84
+320            android:exported="false" >
+320-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:31:13-37
+321            <meta-data
+321-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:32:13-34:85
+322                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+322-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:33:17-96
+323                android:value="com.google.firebase.components.ComponentRegistrar" />
+323-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:34:17-82
+324        </service>
+325
+326        <receiver
+326-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:37:9-44:20
+327            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+327-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:38:13-78
+328            android:exported="true"
+328-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:39:13-36
+329            android:permission="com.google.android.c2dm.permission.SEND" >
+329-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:40:13-73
+330            <intent-filter>
+330-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:41:13-43:29
+331                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+331-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:17-81
+331-->[com.google.firebase:firebase-iid:20.0.0] C:\Users\admin\.gradle\caches\transforms-3\e346872624acf6b7a582aa5510dc978b\transformed\jetified-firebase-iid-20.0.0\AndroidManifest.xml:42:25-78
+332            </intent-filter>
+333        </receiver>
+334
+335        <provider
+335-->[com.google.firebase:firebase-common:19.0.0] C:\Users\admin\.gradle\caches\transforms-3\22eb54344a02b945622b7085177017f1\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:12:9-16:39
+336            android:name="com.google.firebase.provider.FirebaseInitProvider"
+336-->[com.google.firebase:firebase-common:19.0.0] C:\Users\admin\.gradle\caches\transforms-3\22eb54344a02b945622b7085177017f1\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:13:13-77
+337            android:authorities="com.rtechspot.school.firebaseinitprovider"
+337-->[com.google.firebase:firebase-common:19.0.0] C:\Users\admin\.gradle\caches\transforms-3\22eb54344a02b945622b7085177017f1\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:14:13-72
+338            android:exported="false"
+338-->[com.google.firebase:firebase-common:19.0.0] C:\Users\admin\.gradle\caches\transforms-3\22eb54344a02b945622b7085177017f1\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:15:13-37
+339            android:initOrder="100" />
+339-->[com.google.firebase:firebase-common:19.0.0] C:\Users\admin\.gradle\caches\transforms-3\22eb54344a02b945622b7085177017f1\transformed\jetified-firebase-common-19.0.0\AndroidManifest.xml:16:13-36
+340
+341        <activity
+341-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-3\606f15818b3c72e09b853f05657cd24a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+342            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+342-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-3\606f15818b3c72e09b853f05657cd24a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+343            android:exported="false"
+343-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-3\606f15818b3c72e09b853f05657cd24a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+344            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+344-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-3\606f15818b3c72e09b853f05657cd24a\transformed\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+345
+346        <meta-data
+346-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-3\ad4264cdb41315b7bda407fec3d497c3\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+347            android:name="com.google.android.gms.version"
+347-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-3\ad4264cdb41315b7bda407fec3d497c3\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+348            android:value="@integer/google_play_services_version" />
+348-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-3\ad4264cdb41315b7bda407fec3d497c3\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+349
+350        <provider
+350-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\6ea8a986cfedfc5b51e34fad0b49b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+351            android:name="androidx.startup.InitializationProvider"
+351-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\6ea8a986cfedfc5b51e34fad0b49b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+352            android:authorities="com.rtechspot.school.androidx-startup"
+352-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\6ea8a986cfedfc5b51e34fad0b49b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+353            android:exported="false" >
+353-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\6ea8a986cfedfc5b51e34fad0b49b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+354            <meta-data
+354-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\6ea8a986cfedfc5b51e34fad0b49b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+355                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+355-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\6ea8a986cfedfc5b51e34fad0b49b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+356                android:value="androidx.startup" />
+356-->[androidx.emoji2:emoji2:1.2.0] C:\Users\admin\.gradle\caches\transforms-3\6ea8a986cfedfc5b51e34fad0b49b568\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+357            <meta-data
+357-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\admin\.gradle\caches\transforms-3\a58757d500b860aff0164021624f88a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+358                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+358-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\admin\.gradle\caches\transforms-3\a58757d500b860aff0164021624f88a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+359                android:value="androidx.startup" />
+359-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\admin\.gradle\caches\transforms-3\a58757d500b860aff0164021624f88a7\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+360        </provider>
+361    </application>
+362
+363</manifest>
